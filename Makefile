@@ -1,4 +1,4 @@
-PACKAGE = s6-dns
+PACKAGE = s6-networking
 ORG = amylum
 BUILD_DIR = /tmp/$(PACKAGE)-build
 RELEASE_DIR = /tmp/$(PACKAGE)-release
