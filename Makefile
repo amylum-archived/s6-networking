@@ -34,14 +34,14 @@ S6-DNS_TAR = s6-dns.tar.gz
 S6-DNS_DIR = /tmp/s6-dns
 S6-DNS_PATH = --with-lib=$(S6-DNS_DIR)/usr/lib/s6-dns --with-include=$(S6-DNS_DIR)/usr/include --with-lib=$(S6-DNS_DIR)/usr/lib
 
-.PHONY : default manual container deps version build push local
+.PHONY : default submodule manual container deps version build push local
 
-default: upstream/Makefile container
+default: submodule container
 
-upstream/Makefile:
+submodule:
 	git submodule update --init
 
-manual:
+manual: submodule
 	./meta/launch /bin/bash || true
 
 container:
@@ -60,7 +60,7 @@ deps:
 	tar -x -C $(S6-DNS_DIR) -f $(S6-DNS_TAR)
 	cp -R /usr/include/{linux,asm,asm-generic} $(SKALIBS_DIR)/usr/include/
 
-build: deps
+build: submodule deps
 	rm -rf $(BUILD_DIR)
 	cp -R upstream $(BUILD_DIR)
 	sed -i 's/0700/0755/' $(BUILD_DIR)/package/modes
