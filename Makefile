@@ -10,19 +10,19 @@ VERSION = $(PACKAGE_VERSION)-$(PATCH_VERSION)
 CONF_FLAGS = --enable-allstatic --enable-static --enable-static-libc
 PATH_FLAGS = --prefix=$(RELEASE_DIR) --exec-prefix=$(RELEASE_DIR)/usr --includedir=$(RELEASE_DIR)/usr/include --libdir=$(RELEASE_DIR)/usr/lib
 
-SKALIBS_VERSION = 2.3.1.1-21
+SKALIBS_VERSION = 2.3.1.2-22
 SKALIBS_URL = https://github.com/amylum/skalibs/releases/download/$(SKALIBS_VERSION)/skalibs.tar.gz
 SKALIBS_TAR = skalibs.tar.gz
 SKALIBS_DIR = /tmp/skalibs
 SKALIBS_PATH = --with-sysdeps=$(SKALIBS_DIR)/usr/lib/skalibs/sysdeps --with-lib=$(SKALIBS_DIR)/usr/lib/skalibs --with-include=$(SKALIBS_DIR)/usr/include --with-dynlib=$(SKALIBS_DIR)/usr/lib
 
-EXECLINE_VERSION = 2.1.1.0-13
+EXECLINE_VERSION = 2.1.1.0-14
 EXECLINE_URL = https://github.com/amylum/execline/releases/download/$(EXECLINE_VERSION)/execline.tar.gz
 EXECLINE_TAR = execline.tar.gz
 EXECLINE_DIR = /tmp/execline
 EXECLINE_PATH = --with-lib=$(EXECLINE_DIR)/usr/lib/execline --with-include=$(EXECLINE_DIR)/usr/include --with-lib=$(EXECLINE_DIR)/usr/lib
 
-S6_VERSION = 2.1.2.0-17
+S6_VERSION = 2.1.2.0-20
 S6_URL = https://github.com/amylum/s6/releases/download/$(S6_VERSION)/s6.tar.gz
 S6_TAR = s6.tar.gz
 S6_DIR = /tmp/s6
