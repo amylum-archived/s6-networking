@@ -1,7 +1,7 @@
 item do
   expected do
     github_tag
-    repo 'skarnet/s6-portable-utils'
+    repo 'skarnet/s6-networking'
     regex /^v([\d.]+)$/
   end
 
