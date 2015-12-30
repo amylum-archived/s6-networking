@@ -28,7 +28,7 @@ S6_TAR = s6.tar.gz
 S6_DIR = /tmp/s6
 S6_PATH = --with-lib=$(S6_DIR)/usr/lib/s6 --with-include=$(S6_DIR)/usr/include --with-lib=$(S6_DIR)/usr/lib
 
-S6-DNS_VERSION = 2.0.0.7-20
+S6-DNS_VERSION = 2.0.0.7-22
 S6-DNS_URL = https://github.com/amylum/s6-dns/releases/download/$(S6-DNS_VERSION)/s6-dns.tar.gz
 S6-DNS_TAR = s6-dns.tar.gz
 S6-DNS_DIR = /tmp/s6-dns
