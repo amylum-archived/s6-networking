@@ -1,6 +1,2 @@
 .github
-skalibs.tar.gz
-execline.tar.gz
-s6.tar.gz
-s6-dns.tar.gz
-s6-networking.tar.gz
+pkg
