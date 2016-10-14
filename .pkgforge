@@ -1,0 +1,43 @@
+name 's6-networking'
+org 'amylum'
+
+licenses 'COPYING'
+
+deps(
+  skalibs: '2.3.10.0-40',
+  execline: '2.1.5.0-29',
+  s6: '2.3.0.0-42',
+  's6-dns': '2.0.1.0-25',
+  'linux-api-headers': '4.8-rc6-2'
+)
+
+with_flags = %w(skalibs execline s6-dns s6).map do |dep_name|
+  dep_path = dep(dep_name)
+  [
+    :"with-lib=#{dep_path}/usr/lib/#{dep_name}",
+    :"with-lib=#{dep_path}/usr/lib",
+    :"with-include=#{dep_path}/usr/include",
+    :"with-dynlib=#{dep_path}/usr/lib",
+  ]
+end.flatten
+with_flags = with_flags.map { |x| [x, nil] }.to_h
+
+configure_flags(
+  prefix: '/usr',
+  'with-sysdeps': "#{dep(:skalibs)}/usr/lib/skalibs/sysdeps",
+  **with_flags
+)
+
+cflags
+harden
+
+build do
+  run 'sed -i "s/0700/0755/" package/modes'
+  configure
+  make
+  install
+end
+
+test do
+  # TODO: add tests
+end
