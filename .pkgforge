@@ -4,11 +4,11 @@ org 'amylum'
 licenses 'COPYING'
 
 deps(
-  skalibs: '2.4.0.0-38',
-  execline: '2.2.0.0-30',
-  s6: '2.4.0.0-43',
-  's6-dns': '2.1.0.0-26',
-  'linux-api-headers': '4.9-rc3-2'
+  skalibs: '2.4.0.1-1',
+  execline: '2.2.0.0-31',
+  s6: '2.4.0.0-44',
+  's6-dns': '2.1.0.0-27',
+  'linux-api-headers': '4.9-rc4-1'
 )
 
 with_flags = %w(skalibs execline s6-dns s6).map do |dep_name|
