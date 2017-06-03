@@ -7,8 +7,8 @@ deps(
   skalibs: '2.5.1.1-1',
   execline: '2.3.0.1-2',
   s6: '2.5.1.0-1',
-  's6-dns': '2.2.0.0-5',
-  'linux-api-headers': '4.11-2'
+  's6-dns': '2.2.0.0-6',
+  'linux-api-headers': '4.11-4'
 )
 
 with_flags = %w(skalibs execline s6-dns s6).map do |dep_name|
