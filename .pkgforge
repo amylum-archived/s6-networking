@@ -4,11 +4,26 @@ org 'amylum'
 licenses 'COPYING'
 
 deps(
-  skalibs: '2.5.1.1-1',
-  execline: '2.3.0.1-2',
-  s6: '2.6.0.0-1',
-  's6-dns': '2.2.0.0-7',
-  'linux-api-headers': '4.12-1'
+  skalibs: {
+    version: '2.5.1.1-1',
+    checksum: '1a4947186b8a19047258f76f2b297f6d301a48147b14e61ba093b4462d19ce9f'
+  },
+  execline: {
+    version: '2.3.0.1-2',
+    checksum: 'df14902f5019c75467f8facdfc5ee8262246534b616fd6bc30cab66f586de73c'
+  },
+  s6: {
+    version: '2.6.0.0-1',
+    checksum: 'f5ec03c78b76875e5947aef2d0e1cb624cc02263e79d576b27c179a88552a194'
+  },
+  's6-dns': {
+    version: '2.2.0.0-7',
+    checksum: 'b574b29f4280ef2d80cc1cab99f4756e31ef9efa6d147585527f206d579cacca'
+  },
+  'linux-api-headers': {
+    version: '4.12-1',
+    checksum: '25d3672456a93cc7f6743d4b2c227ad7a9456f4ec2a9f09ab7f2e9e6cb56aeaa'
+  }
 )
 
 with_flags = %w(skalibs execline s6-dns s6).map do |dep_name|
