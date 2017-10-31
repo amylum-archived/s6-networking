@@ -5,20 +5,20 @@ licenses 'COPYING'
 
 deps(
   skalibs: {
-    version: '2.6.0.2-1',
-    checksum: '98ce366ca6a1f7876c78cf1c2b694ad13f8d735962a1c01b1e0bc73e66f3a1c7'
+    version: '2.6.1.0-1',
+    checksum: '2d1aa2cf401454ed932d86c3cf47382b7b1b286236eb992466fa799928ccfc5b'
   },
   execline: {
-    version: '2.3.0.3-2',
-    checksum: 'acfcd9b7a1fcd6d2d1fb9f3eb2c3e537aae5e8431bf2605f0be466d28181f3a3'
+    version: '2.3.0.3-3',
+    checksum: '359439a3c9f406af66baf581631dbb09541ecf91a5847b460dff8b12d5d5d9a2'
   },
   s6: {
     version: '2.6.1.1-2',
     checksum: '0a95cce22b9d93449e805edc40359a44b6d2c3463e36e76b25b61b043e2894a4'
   },
   's6-dns': {
-    version: '2.2.0.1-4',
-    checksum: 'da1b6c53433c44ae39a8ef7722d8e095f8b53c548f5840ec61b6c32c539ca93f'
+    version: '2.2.0.1-5',
+    checksum: '39e809a37dc19710970304e8af2d694d303dece13649b83335327f121a0e0af3'
   },
   'linux-api-headers': {
     version: '4.13-1',
