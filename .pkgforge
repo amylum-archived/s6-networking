@@ -17,12 +17,12 @@ deps(
     checksum: 'a856f54b4abf2156108badc99c9d4447a1760c6bd7434e9d2e163555a1f94078'
   },
   's6-dns': {
-    version: '2.2.0.1-5',
-    checksum: '39e809a37dc19710970304e8af2d694d303dece13649b83335327f121a0e0af3'
+    version: '2.2.0.1-6',
+    checksum: 'aca2beb3866ba0412092ec46300d62dd59a412868e4cc496a726d23ab5ef91de'
   },
   'linux-api-headers': {
-    version: '4.13-1',
-    checksum: '50b2288419fe132c061bdf3d297293011929abc1092ffaa5e523ad6549b4f5fa'
+    version: '4.14-1',
+    checksum: '106c40ebd4826cf8fda5235cb9619e37d79efea6e64545d64bb78d4a829f29a6'
   }
 )
 
