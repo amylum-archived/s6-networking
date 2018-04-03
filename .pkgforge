@@ -9,20 +9,20 @@ deps(
     checksum: '00d8128bc935f5175c9f24258532593d2b156f0551feec3457abcf48a61cef93'
   },
   execline: {
-    version: '2.3.0.4-4',
-    checksum: '614cc5b3990a553a166a0e691ce9991fea4aa04444a18f487f644359de313fc3'
+    version: '2.5.0.0-1',
+    checksum: 'cd55280a95abdb992d3acddaac614cb7d8a1d8733b5f41acf82b1f842d449141'
   },
   s6: {
-    version: '2.7.1.1-1',
-    checksum: '68b0fd7cd0c87e33d4daabb5a4ac93d127031f4874ce4f6831fe00167d8fda2f'
+    version: '2.7.1.1-2',
+    checksum: 'aaca5f51c053dd767475f2a04fdbd0fa0a96dee4cc40ff19072189b0297c97da'
   },
   's6-dns': {
-    version: '2.3.0.0-4',
-    checksum: 'd73cb56ed0b45e7744a5514b091556879fa359baa51fe0a93316e0e243a8ac10'
+    version: '2.3.0.0-5',
+    checksum: '01ce53dfe1849eabac45c9ccbaf1cd213dd6e660d4ee7b2a3eb4cd0ab362b327'
   },
   'linux-api-headers': {
-    version: '4.15-2',
-    checksum: 'dbfe68e7620b09fe2996d83fe4ae738dddb2486885b9d5ef3dc27ae77d7585ba'
+    version: '4.16-1',
+    checksum: '55af258de8663de5ec97db875651eaeecc209b47454dbbf27757d4de595e618d'
   }
 )
 
