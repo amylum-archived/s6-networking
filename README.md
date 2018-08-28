@@ -1,7 +1,7 @@
 s6-networking
 =========
 
-[![Build Status](https://img.shields.io/circleci/project/amylum/s6-networking/master.svg)](https://circleci.com/gh/amylum/s6-networking)
+[![Build Status](https://img.shields.io/travis/com/amylum/s6-networking.svg)](https://travis-ci.com/amylum/s6-networking)
 [![GitHub release](https://img.shields.io/github/release/amylum/s6-networking.svg)](https://github.com/amylum/s6-networking/releases)
 [![ISC Licensed](https://img.shields.io/badge/license-ISC-green.svg)](https://tldrlegal.com/license/-isc-license)
 
