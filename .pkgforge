@@ -13,8 +13,8 @@ deps(
     checksum: '9d095a352c4f0697fc5672ab61c7cef4f2c6c58aa3ac0ce4a029e5d8979b6626'
   },
   s6: {
-    version: '2.7.2.0-1',
-    checksum: '7f7b402a59d191b6b8a1120129aacb0a73537d05f040d1616de5efcfeafda665'
+    version: '2.7.2.2-1',
+    checksum: 'e05e16f922c6b79ef2eb51c363c76454812f0b5cfed6046161fd37576ae58972'
   },
   's6-dns': {
     version: '2.3.0.1-2',
