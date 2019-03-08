@@ -5,20 +5,20 @@ licenses 'COPYING'
 
 deps(
   skalibs: {
-    version: '2.7.0.0-1',
-    checksum: '21c79f8f9febec4949822879f82ad87e47bb0a1272672d61b7191a1241401154'
+    version: '2.8.0.0-1',
+    checksum: 'cf094c3ad3b45602521e1cbcd82e3be288f79455819efe4d6c78297cc006f857'
   },
   execline: {
-    version: '2.5.0.1-1',
-    checksum: '9d095a352c4f0697fc5672ab61c7cef4f2c6c58aa3ac0ce4a029e5d8979b6626'
+    version: '2.5.1.0-1',
+    checksum: '306e4aa72e3b2ba114d1a1b07e9bb8a93d6ca965449e236e6e2f66048c09a18b'
   },
   s6: {
-    version: '2.7.2.2-1',
-    checksum: 'e05e16f922c6b79ef2eb51c363c76454812f0b5cfed6046161fd37576ae58972'
+    version: '2.8.0.0-1',
+    checksum: 'd98d8268d6a6a8768fb7de053566c9e2fe674ecedce7124b5a029201fd923a2b'
   },
   's6-dns': {
-    version: '2.3.0.1-3',
-    checksum: 'cfe63bf6b7a122a40686b45ab5cc183514ba88a171158452c952f4407e47aadc'
+    version: '2.3.0.2-1',
+    checksum: '5b1ee4b6c3107006a82b091889b8e5c54df2642e4b772fe7815c46e66cb1480c'
   },
   'linux-api-headers': {
     version: '4.20-1',
